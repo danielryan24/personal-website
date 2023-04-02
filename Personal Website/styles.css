@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: azure;
 }
 
 header {
@@ -9,6 +10,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #2C3333;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    
 }
 h2 {
     color: #CBE4DE;
@@ -30,5 +33,42 @@ a {
 
 nav ul li a {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: lighter;
+    font-size: large;
+}
+
+nav ul li a:hover{
+    color: #CBE4DE;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+}
+
+#hero-greetings {
+    padding-left: 400px;
+}
+
+#hero-button button {
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: #0E8388;
+    color: black;
+    border: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#hero-button button:hover {
+    background-color: #CBE4DE;
+}
+
+#hero-img {
+    padding-right: 400px;
+}
+
+img {
+    border-radius: 8px;
 }
