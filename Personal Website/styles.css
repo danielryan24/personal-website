@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #CBE4DE;
 }
 
 header {
@@ -52,24 +52,39 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 #hero-greetings {
     padding-left: 400px;
 }
 
+#hero-greetings p {
+    padding-right: 230px;
+    margin-top: -10px;
+    line-height: 1.3;
+}
+
+#name {
+    margin-top: -10px;
+    font-size: xx-large;
+}
+
+#hero-button {
+    margin-top: 30px;
+}
+
 #hero-button button {
     padding: 10px 30px;
     border-radius: 8px;
     background-color: #0E8388;
-    color: black;
+    color: white;
     border: 0;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 #hero-button button:hover {
-    background-color: #CBE4DE;
+    background-color: #2C3333;
 }
 
 #hero-img {
@@ -78,6 +93,7 @@ nav ul li a:hover{
 
 #hero-img img {
     border-radius: 8px;
+    
 }
 
 #about {
@@ -99,3 +115,4 @@ nav ul li a:hover{
 #about-why-write {
     margin-top: 50px;
 }
+
